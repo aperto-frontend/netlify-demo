@@ -5,7 +5,7 @@ const deepExtend = require('deep-extend');
 const Mangony = require('mangony');
 const config = require('../configs/config');
 const mangonyOptions = require('../../../configs/tasks/mangony/mangony.config');
-const createMangony = (express) => {
+const createMangony = express => {
 	const mangonyDevOptions = deepExtend(mangonyOptions.dev.options, {
 		devServer: {
 			express: express,
@@ -21,9 +21,9 @@ const createMangony = (express) => {
 module.exports = (routes, apiRoutes) => {
 	const app = express();
 	const mangony = createMangony(app);
-	
+
 	app.use(express.static('app'));
-	app.use(bodyParser.urlencoded({extended: false}));
+	app.use(bodyParser.urlencoded({ extended: false }));
 	app.use(bodyParser.json());
 	app.use(morgan('dev'));
 
