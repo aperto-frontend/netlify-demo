@@ -244,7 +244,15 @@
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@veams/bp-mock-api/-/bp-mock-api-1.0.3.tgz#82454a83ce8f291e9b29ccb8414bb171b84488ce"
 
-"@veams/component@^1.2.3":
+"@veams/component-slider@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@veams/component-slider/-/component-slider-1.1.1.tgz#a01fbfe186e175c7ff271f0a5237d0a5701e1868"
+  dependencies:
+    "@veams/component" "^1.2.0"
+    "@veams/helpers" "^1.2.0"
+    "@veams/query" "^2.2.1"
+
+"@veams/component@^1.2.0", "@veams/component@^1.2.3":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@veams/component/-/component-1.2.5.tgz#439c95f43fefdcb2841067844840e6ac2db0b670"
   dependencies:
@@ -257,7 +265,7 @@
     "@veams/helpers" "^1.4.0"
     promise-polyfill "^8.1.0"
 
-"@veams/helpers@^1.2.1", "@veams/helpers@^1.2.2", "@veams/helpers@^1.2.5", "@veams/helpers@^1.2.8", "@veams/helpers@^1.4.0":
+"@veams/helpers@^1.2.0", "@veams/helpers@^1.2.1", "@veams/helpers@^1.2.2", "@veams/helpers@^1.2.5", "@veams/helpers@^1.2.8", "@veams/helpers@^1.4.0":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@veams/helpers/-/helpers-1.4.1.tgz#a96254dee6ba292cd2a5dedc32d8bbdbd0b41ac8"
 
@@ -307,7 +315,7 @@
   dependencies:
     "@veams/helpers" "^1.2.5"
 
-"@veams/query@^2.2.24":
+"@veams/query@^2.2.1", "@veams/query@^2.2.24":
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/@veams/query/-/query-2.6.2.tgz#503389649d7564bfad6355df9ba777bd755e35cd"
 
