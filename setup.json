@@ -1,0 +1,38 @@
+{
+  "@veams/generator-veams": {
+    "projectName": "netlify demo",
+    "projectType": "static-page-app",
+    "taskRunner": "webpack",
+    "templateEngine": "ssr-mangony-hbs",
+    "server": [
+      "serverFakeData"
+    ],
+    "gruntModules": [],
+    "features": [],
+    "jsLibs": [
+      "handlebars"
+    ],
+    "cssLibs": [
+      "bourbon-neat",
+      "include-media"
+    ],
+    "testAndQA": true,
+    "testAndQALibs": [
+      "husky",
+      "stylelint",
+      "eslint"
+    ],
+    "veamsPackages": true,
+    "docs": [],
+    "icons": [
+      "sprite"
+    ],
+    "images": [
+      "imgResponsive",
+      "imgLazyLoad"
+    ],
+    "cssPostProcessors": [
+      "autoprefixer"
+    ]
+  }
+}
